@@ -28,7 +28,7 @@ class Basqa(models.Model):
         PUBLISHED = 1, 'Опубликовано'
 
     title = models.CharField(max_length=255, verbose_name="Заголовок")
-    slug = models.SlugField(max_length=255, unique=True, db_index=True, verbose_name="Слаг",                            validators=[
+    slug = models.SlugField(max_length=255, unique=True, db_index=True, verbose_name="Слаг", validators=[
                                MinLengthValidator(5),
                                MaxLengthValidator(100),
                            ])

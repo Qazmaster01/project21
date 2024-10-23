@@ -15,7 +15,7 @@
 {% block mainmenu %}
 		<div class="header">
 			<ul id="mainmenu" class="mainmenu">
-			<li class="logo"><a href="{% url 'home' %}"><div class="logo"></div></a></li>
+<!--			<li class="logo"><a href="{% url 'home' %}"><div class="logo"></div></a></li>-->
 
 				{% for m in mainmenu %}
 	<li><a href="{% url m.url_name %}">{{m.title}}</a></li>
@@ -67,11 +67,11 @@
 </td></tr></table>
 </td></tr>
 <!-- Footer -->
-<tr><td valign=top>
-	<div id="footer">
-		<p>&copy; 2023 Частичное или полное копирование информации с данного сайта для распространения на других ресурсах, в том числе и бумажных, строго запрещено.</p>
-	</div>
-</td></tr></table>
+<!--<tr><td valign=top>-->
+<!--	<div id="footer">-->
+<!--		<p>&copy; 2023 Частичное или полное копирование информации с данного сайта для распространения на других ресурсах, в том числе и бумажных, строго запрещено.</p>-->
+<!--	</div>-->
+<!--</td></tr></table>-->
 <!-- Конец footer'а и страницы -->
 </body>
 </html>

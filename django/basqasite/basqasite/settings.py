@@ -98,8 +98,8 @@ DATABASES = {
 #     }
     'default': {
         'ENGINE': "django.db.backends.postgresql",
-        'NAME': 'basqasite_db',
-        'USER': 'basqasite',
+        'NAME': 'postgres',
+        'USER': 'postgres',
         'PASSWORD': 'fanatdoom',
         'HOST': 'localhost',
         'PORT': 5432,
